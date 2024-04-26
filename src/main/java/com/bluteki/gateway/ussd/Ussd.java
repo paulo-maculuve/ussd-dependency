@@ -21,7 +21,7 @@ public class Ussd {
         this.msg = msg;
     }
 
-    @XmlElement
+    @XmlElement(name = "msisdn")
     public String getMsisdn() {
         return this.msisdn;
     }
@@ -30,7 +30,7 @@ public class Ussd {
         this.msisdn = msisdn;
     }
 
-    @XmlElement
+    @XmlElement(name = "sessionid")
     public String getSessionId() {
         return this.sessionId;
     }
@@ -39,7 +39,7 @@ public class Ussd {
         this.sessionId = sessionId;
     }
 
-    @XmlElement
+    @XmlElement(name = "type")
     public String getType() {
         return this.type;
     }
@@ -48,7 +48,7 @@ public class Ussd {
         this.type = type;
     }
 
-    @XmlElement
+    @XmlElement(name = "msg")
     public String getMsg() {
         return this.msg;
     }
